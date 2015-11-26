@@ -1,0 +1,13 @@
+{
+    "name": "sainsburys/console",
+    "description": "Sainsbury's Scraping symfony/console app",
+    "require": {
+        "php": ">=5.4.0",
+        "symfony/console": "2.4.x-dev"
+    },
+    "autoload": {
+        "psr-0": {
+            "": "src/"
+        }
+    }
+}
