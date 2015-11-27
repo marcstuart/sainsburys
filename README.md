@@ -10,3 +10,5 @@ Scraping Console App
 app/console scrapesainsburys:getproductjson<br />
 <br />
 This will return a json object with a list of products from sainsburys website.<br />
+
+-To run the tests go to the root of the app and type vendor/bin/phpunit src/ScrapeSainsburys/Tests
