@@ -66,7 +66,7 @@ EOT
 		$post_data = json_encode($post_data, JSON_PRETTY_PRINT);
 		
 		//Printing Json Object to console
-		print_r($post_data);
+		$output->writeln($post_data);
 
     }
 	
